@@ -1,12 +1,10 @@
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
 
-class Student:
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
+car1 = Car("Honda", "City")
+car2 = Car("Toyota", "Fortuner")
 
-    def show(self):
-        print("Name:", self.name)
-        print("Marks:", self.marks)
-
-s1 = Student("Rudra", 83)
-s1.show()
+print(car1.brand)
+print(car2.model)
