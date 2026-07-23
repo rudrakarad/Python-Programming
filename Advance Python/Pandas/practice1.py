@@ -6,4 +6,4 @@ a = {
 }
 
 df = pd.DataFrame(a)
-print(df)
+print(df.iloc[1, 1])
